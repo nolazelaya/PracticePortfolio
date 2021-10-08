@@ -1,0 +1,166 @@
+body {
+	background: #DAF7F6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #3B3B3B;
+}
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	padding: 40px 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+main {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+	margin: 25px 0;
+	overflow: auto;
+}
+
+.image {
+	float: left;
+	width: 500px;
+	height: 550px;
+}
+
+.recipe {
+	float: left;
+	padding: 10px;
+	width: 500px;
+	height: 570px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+    overflow: auto;
+}
+
+#cookies .image {
+	background-image: url("../img/gluten-free-sugar-cookies.jpg");
+	background-size: cover;
+}
+
+#pesto .image {
+	background-image: url("../img/nut-free-pesto.jpg");
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url("../img/watermelon-salad.jpg");
+	background-size: cover;
+}
+
+.recipe h2 {
+	margin-top: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 29px;
+	color: #F16059;
+}
+
+.time {
+	margin-bottom: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+	overflow: auto;
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	width: 33.3333%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time .cook {
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+}
+
+.time img {
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 15px;
+	height: auto;
+}
+
+.time-details {
+	display: inline-block;
+}
+
+.time strong {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ingredients h3 {
+    display: block;
+    padding: 5px 0px 8px 5px;
+    border-top: 2px solid #3B3B3B;
+    border-bottom: 2px solid #3B3B3B;
+    font-family: 'Montserrat';    
+    font-size: 12px;
+    color: #F16059;
+    text-transform: uppercase;
+}
+
+.directions h3 {
+    display: block;
+    padding: 5px 0px 8px 5px;
+    border-top: 2px solid #3B3B3B;
+    border-bottom: 2px solid #3B3B3B;
+    font-family: 'Montserrat';    
+    font-size: 12px;
+    color: #F16059;
+    text-transform: uppercase;
+}
+
+.ingredients {
+    display: inline;
+    float: left;
+    width: 205px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+.ingredients ul {
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.directions ol {
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.directions {
+    display: inline;
+    float: left;
+    width: 240px;
+    overflow: auto;
+}
+
+.columns {
+    overflow: auto;
+}

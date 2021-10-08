@@ -1,0 +1,77 @@
+/*  font info
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+*/
+
+body {
+    font-size: 20px;
+    background: #e8e8e8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 0 auto;
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 3px;
+}
+
+.emph {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.large-block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+    height: 430px;
+    padding: 40px;
+}
+
+.small-block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+    height: 210px;
+    padding: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+    color: #ffffff;
+}
+
+.title {
+    padding: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+}
+
+span {
+    background-color:yellow;
+    padding: 6px;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
